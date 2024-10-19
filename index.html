@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Camera Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        iframe {
+            border: 1px solid #ccc;
+            width: 640px;
+            height: 480px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>IP Camera Viewer</h1>
+    <!-- Iframe untuk menampilkan stream IP Camera -->
+    <iframe src="http://192.168.1.14:1080/video" <!-- Ganti dengan IP Camera Anda -->
+        frameborder="0"
+        allowfullscreen
+        ></iframe>
+</body>
+
+</html>
